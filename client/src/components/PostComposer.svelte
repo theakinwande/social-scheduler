@@ -36,11 +36,11 @@
     
     // X allows 4 images OR 1 video
     if (hasVideo && (mediaFiles.length + files.length > 1)) {
-      error = 'Only 1 video allowed per post';
+      error = 'Only a video allowed per post';
       return;
     }
     if (!hasVideo && mediaFiles.length + files.length > 4) {
-      error = 'Maximum 4 images allowed';
+      error = 'Maximum four images allowed';
       return;
     }
     
